@@ -3,10 +3,10 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"sgf_bingo_2024_atlas_1", frames: [[0,0,1920,1080]]},
-		{name:"sgf_bingo_2024_atlas_2", frames: [[0,0,1920,1080]]},
-		{name:"sgf_bingo_2024_atlas_3", frames: [[0,0,1920,1080]]},
-		{name:"sgf_bingo_2024_atlas_4", frames: [[0,0,1920,1080]]}
+		{name:"index_atlas_1", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_2", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_3", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_4", frames: [[0,0,1920,1080]]}
 ];
 
 
@@ -31,28 +31,28 @@ lib.ssMetadata = [
 
 
 (lib.sleep_1 = function() {
-	this.initialize(ss["sgf_bingo_2024_atlas_4"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sleep_2 = function() {
-	this.initialize(ss["sgf_bingo_2024_atlas_3"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sleep_3 = function() {
-	this.initialize(ss["sgf_bingo_2024_atlas_2"]);
+	this.initialize(ss["index_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.TGA2024 = function() {
-	this.initialize(ss["sgf_bingo_2024_atlas_1"]);
+	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -481,10 +481,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/sgf_bingo_2024_atlas_1.png", id:"sgf_bingo_2024_atlas_1"},
-		{src:"images/sgf_bingo_2024_atlas_2.png", id:"sgf_bingo_2024_atlas_2"},
-		{src:"images/sgf_bingo_2024_atlas_3.png", id:"sgf_bingo_2024_atlas_3"},
-		{src:"images/sgf_bingo_2024_atlas_4.png", id:"sgf_bingo_2024_atlas_4"},
+		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png", id:"index_atlas_4"},
 		{src:"sounds/sonud_click.mp3", id:"sonud_click"}
 	],
 	preloads: []
